@@ -69,7 +69,7 @@ namespace InheritanceDemo
             Console.ReadKey();
         }
     }
-}*/
+}
 
 
 namespace AbstractClassesDemo
@@ -168,6 +168,116 @@ namespace AbstractClassesDemo
                 Console.WriteLine($"\nShape {i + 1}:");
                 shapes[i].DisplayInfo();
             }
+
+            Console.WriteLine();
+            Console.WriteLine("Press any key to exit...");
+            Console.ReadKey();
+        }
+    }
+}*/
+
+using System;
+
+namespace InterfacesDemo
+{
+    // Define interface IMovable
+    public interface IMovable
+    {
+        void Move();
+    }
+
+    // Class Car that implements IMovable
+    public class Car : IMovable
+    {
+        private string brand;
+        private string model;
+
+        public Car(string brand, string model)
+        {
+            this.brand = brand;
+            this.model = model;
+        }
+
+        public void Move()
+        {
+            Console.WriteLine("Car is moving");
+        }
+
+        public void DisplayInfo()
+        {
+            Console.WriteLine($"{brand} {model} car:");
+        }
+    }
+
+    // Class Bicycle that implements IMovable
+    public class Bicycle : IMovable
+    {
+        private string type;
+        private int gears;
+
+        public Bicycle(string type, int gears)
+        {
+            this.type = type;
+            this.gears = gears;
+        }
+
+        public void Move()
+        {
+            Console.WriteLine("Bicycle is moving");
+        }
+
+        public void DisplayInfo()
+        {
+            Console.WriteLine($"{type} bicycle with {gears} gears:");
+        }
+    }
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("=== Interfaces Demo ===");
+            Console.WriteLine();
+
+            // Create instances of Car and Bicycle
+            Car myCar = new Car("Toyota", "Camry");
+            Bicycle myBicycle = new Bicycle("Mountain", 21);
+
+            // Call Move() method on each instance
+            Console.WriteLine("Direct method calls:");
+            myCar.DisplayInfo();
+            myCar.Move();
+
+            Console.WriteLine();
+
+            myBicycle.DisplayInfo();
+            myBicycle.Move();
+
+            Console.WriteLine();
+            Console.WriteLine("=== Demonstrating Interface Polymorphism ===");
+
+            // Using interface references (polymorphism)
+            IMovable[] movableObjects = { new Car("Honda", "Civic"), new Bicycle("Road", 18), new Car("Ford", "Focus") };
+
+            for (int i = 0; i < movableObjects.Length; i++)
+            {
+                Console.Write($"Movable object {i + 1}: ");
+                movableObjects[i].Move();
+            }
+
+            Console.WriteLine();
+            Console.WriteLine("=== Interface Reference Examples ===");
+
+            // Demonstrate interface references
+            IMovable vehicle1 = new Car("BMW", "X5");
+            IMovable vehicle2 = new Bicycle("Hybrid", 7);
+
+            Console.WriteLine("Using interface references:");
+            Console.Write("Vehicle 1: ");
+            vehicle1.Move();
+
+            Console.Write("Vehicle 2: ");
+            vehicle2.Move();
 
             Console.WriteLine();
             Console.WriteLine("Press any key to exit...");
