@@ -12,3 +12,4 @@ C:\Users\nanae\OneDrive\Desktop\DCIT318-ASS-2\obj\Debug\net9.0\refint\DCIT318-AS
 C:\Users\nanae\OneDrive\Desktop\DCIT318-ASS-2\obj\Debug\net9.0\DCIT318-ASS-2.pdb
 C:\Users\nanae\OneDrive\Desktop\DCIT318-ASS-2\obj\Debug\net9.0\DCIT318-ASS-2.genruntimeconfig.cache
 C:\Users\nanae\OneDrive\Desktop\DCIT318-ASS-2\obj\Debug\net9.0\ref\DCIT318-ASS-2.dll
+C:\Users\nanae\OneDrive\Desktop\DCIT318-ASS-2\obj\Debug\net9.0\DCIT318-ASS-2.sourcelink.json
