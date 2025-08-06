@@ -1,0 +1,14 @@
+C:\Users\nanae\OneDrive\Desktop\DCIT318-ASS-2\bin\Debug\net9.0\DCIT318-ASS-2.exe
+C:\Users\nanae\OneDrive\Desktop\DCIT318-ASS-2\bin\Debug\net9.0\DCIT318-ASS-2.deps.json
+C:\Users\nanae\OneDrive\Desktop\DCIT318-ASS-2\bin\Debug\net9.0\DCIT318-ASS-2.runtimeconfig.json
+C:\Users\nanae\OneDrive\Desktop\DCIT318-ASS-2\bin\Debug\net9.0\DCIT318-ASS-2.dll
+C:\Users\nanae\OneDrive\Desktop\DCIT318-ASS-2\bin\Debug\net9.0\DCIT318-ASS-2.pdb
+C:\Users\nanae\OneDrive\Desktop\DCIT318-ASS-2\obj\Debug\net9.0\DCIT318-ASS-2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nanae\OneDrive\Desktop\DCIT318-ASS-2\obj\Debug\net9.0\DCIT318-ASS-2.AssemblyInfoInputs.cache
+C:\Users\nanae\OneDrive\Desktop\DCIT318-ASS-2\obj\Debug\net9.0\DCIT318-ASS-2.AssemblyInfo.cs
+C:\Users\nanae\OneDrive\Desktop\DCIT318-ASS-2\obj\Debug\net9.0\DCIT318-ASS-2.csproj.CoreCompileInputs.cache
+C:\Users\nanae\OneDrive\Desktop\DCIT318-ASS-2\obj\Debug\net9.0\DCIT318-ASS-2.dll
+C:\Users\nanae\OneDrive\Desktop\DCIT318-ASS-2\obj\Debug\net9.0\refint\DCIT318-ASS-2.dll
+C:\Users\nanae\OneDrive\Desktop\DCIT318-ASS-2\obj\Debug\net9.0\DCIT318-ASS-2.pdb
+C:\Users\nanae\OneDrive\Desktop\DCIT318-ASS-2\obj\Debug\net9.0\DCIT318-ASS-2.genruntimeconfig.cache
+C:\Users\nanae\OneDrive\Desktop\DCIT318-ASS-2\obj\Debug\net9.0\ref\DCIT318-ASS-2.dll
